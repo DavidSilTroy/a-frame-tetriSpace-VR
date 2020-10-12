@@ -589,6 +589,7 @@
                             }else{
                                 document.querySelector(`#${fig}${i}`).setAttribute('position',`${x0} ${y0} -10`)
                             }
+                            check_limit(fig); //por si la figura sale de los limites(las paredes)
                         }
                         if(cont>1){cont=0;}
                     }
